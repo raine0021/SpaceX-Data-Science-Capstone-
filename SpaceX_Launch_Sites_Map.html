@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_189672372d730605be5a24f30ed1050d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_189672372d730605be5a24f30ed1050d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_189672372d730605be5a24f30ed1050d = L.map(
+                "map_189672372d730605be5a24f30ed1050d",
+                {
+                    center: [35.0, -100.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var circle_marker_59e41d6821eaa90c94a18cbfc0227abb = L.circleMarker(
+                [28.5618571, -80.577366],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_189672372d730605be5a24f30ed1050d);
+        
+    
+        var popup_5a5bf605ed9420ed517e50b484efa20d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33172d4602f7e252d5f55fb8cfbcaf7e = $(`<div id="html_33172d4602f7e252d5f55fb8cfbcaf7e" style="width: 100.0%; height: 100.0%;">CCAFS SLC 40</div>`)[0];
+                popup_5a5bf605ed9420ed517e50b484efa20d.setContent(html_33172d4602f7e252d5f55fb8cfbcaf7e);
+            
+        
+
+        circle_marker_59e41d6821eaa90c94a18cbfc0227abb.bindPopup(popup_5a5bf605ed9420ed517e50b484efa20d)
+        ;
+
+        
+    
+    
+            circle_marker_59e41d6821eaa90c94a18cbfc0227abb.bindTooltip(
+                `<div>
+                     CCAFS SLC 40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe016afe45ad730f6d7bac7464512f79 = L.circleMarker(
+                [34.632093, -120.610829],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_189672372d730605be5a24f30ed1050d);
+        
+    
+        var popup_382e4e1a6ec81db9e93eb18139970272 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_188094f3dc4deb4e6ca6c380066b3f3e = $(`<div id="html_188094f3dc4deb4e6ca6c380066b3f3e" style="width: 100.0%; height: 100.0%;">VAFB SLC 4E</div>`)[0];
+                popup_382e4e1a6ec81db9e93eb18139970272.setContent(html_188094f3dc4deb4e6ca6c380066b3f3e);
+            
+        
+
+        circle_marker_fe016afe45ad730f6d7bac7464512f79.bindPopup(popup_382e4e1a6ec81db9e93eb18139970272)
+        ;
+
+        
+    
+    
+            circle_marker_fe016afe45ad730f6d7bac7464512f79.bindTooltip(
+                `<div>
+                     VAFB SLC 4E
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a73e0a697be08953452ba6a3b47e018a = L.circleMarker(
+                [28.6080585, -80.6039558],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_189672372d730605be5a24f30ed1050d);
+        
+    
+        var popup_cee76b4694c45f86952d64f1af245d08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf3a26a34d738795524965364fc44c72 = $(`<div id="html_bf3a26a34d738795524965364fc44c72" style="width: 100.0%; height: 100.0%;">KSC LC 39A</div>`)[0];
+                popup_cee76b4694c45f86952d64f1af245d08.setContent(html_bf3a26a34d738795524965364fc44c72);
+            
+        
+
+        circle_marker_a73e0a697be08953452ba6a3b47e018a.bindPopup(popup_cee76b4694c45f86952d64f1af245d08)
+        ;
+
+        
+    
+    
+            circle_marker_a73e0a697be08953452ba6a3b47e018a.bindTooltip(
+                `<div>
+                     KSC LC 39A
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
